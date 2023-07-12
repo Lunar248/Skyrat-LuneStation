@@ -6512,7 +6512,8 @@
 	dir = 8
 	},
 /obj/machinery/telecomms/relay/preset{
-	id = "hotelrelay"
+	id = "hotelrelay";
+	autolinkers = list("autorelay")
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hotel/power)
