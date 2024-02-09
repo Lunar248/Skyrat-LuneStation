@@ -676,6 +676,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/cargodise_freighter/cargo)
+"kl" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/carpet/orange,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "kn" = (
 /obj/item/kirbyplants/random,
 /obj/machinery/light_switch/directional/north,
@@ -1127,6 +1131,9 @@
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "sU" = (
 /mob/living/simple_animal/hostile/vox/melee,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "sV" = (
@@ -1169,8 +1176,13 @@
 /obj/item/folded_navigation_gigabeacon,
 /obj/structure/cable,
 /obj/item/circuitboard/computer/powermonitor,
+/obj/item/circuitboard/machine/biogenerator/food_replicator,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
+"tl" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/kitchen,
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "ty" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1399,9 +1411,9 @@
 /turf/open/floor/iron/kitchen,
 /area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "xw" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/cold/directional/west,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "xy" = (
@@ -2276,6 +2288,7 @@
 	},
 /area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "Kr" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "Kt" = (
@@ -2479,6 +2492,7 @@
 "Ny" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/machinery/light/cold/directional/east,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "NC" = (
@@ -2602,6 +2616,7 @@
 "Pa" = (
 /obj/machinery/shower/directional/south,
 /obj/item/soap,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "Pe" = (
@@ -3098,6 +3113,12 @@
 	dir = 1
 	},
 /area/ruin/space/has_grav/cargodise_freighter/primaryhall)
+"Xg" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/kitchen,
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "Xl" = (
 /obj/structure/closet/crate/solarpanel_small,
 /turf/open/floor/iron/dark,
@@ -3294,6 +3315,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark/smooth_half{
 	dir = 1
 	},
@@ -4502,7 +4524,7 @@ vH
 Gg
 yW
 ty
-Da
+Xg
 Da
 Df
 Da
@@ -4628,8 +4650,8 @@ FT
 FT
 FT
 JC
-Da
-Da
+Xg
+tl
 IP
 Gg
 UL
@@ -5419,7 +5441,7 @@ NZ
 Qv
 Kb
 EP
-EP
+kl
 kX
 Gh
 Gh
